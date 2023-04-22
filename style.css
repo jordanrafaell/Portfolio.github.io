@@ -387,23 +387,3 @@ font-size: 20px;
 }
 
 
-
-.contrucao{
-    font-size: 54px;
-    opacity: 60%;
-    width: 90vw;
-    height: 30vh;
-    background-color: rgb(112, 48, 177);
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    position: fixed;
-    top: 20vh;
-    left: 50px;
-    color: white;
-}
-/*EM CONTRUÇÃO*/
-.contrucao h2{
-    position: relative;
-    bottom: 60px;
-}
