@@ -159,6 +159,9 @@ body {
 /*SOBRE*/
 
 .titulo1 h1 {
+    position: relative;
+    right: 90px;
+    width: 99.8vw;
     text-align: center;
     height: 35px;
     padding-top: 10px;
@@ -170,7 +173,7 @@ body {
 
 .video.text {
     position: relative;
-    right: 20px;
+    right: 94px;
     bottom: 20.7vh;
     display: flex;
     flex-direction: row-reverse;
@@ -213,11 +216,11 @@ body {
 
 .info{
     background-color: #475966;
-    width: 485px;
+    width: 495.5px;
     height: 486px;
     position: relative;
     bottom: 49.1vw;
-    left: 63.1vw;
+    left: 57vw;
     border-radius: 3px;
 }
 
@@ -460,6 +463,42 @@ font-size: 20px;
     font-size: 20px;
 }
   
+
+
+
+
+
+/*Responsivo*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 90vw;
+}
+
+/* Estilos para telas menores que 600px (ex: smartphones em modo retrato) */
+@media screen and (max-width: 600px) {
+  /* Estilos específicos para telas menores que 600px aqui */
+}
+
+/* Estilos para telas entre 600px e 900px (ex: smartphones em modo paisagem e tablets) */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  /* Estilos específicos para telas entre 600px e 900px aqui */
+}
+
+/* Estilos para telas entre 900px e 1200px (ex: tablets maiores e laptops) */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  /* Estilos específicos para telas entre 900px e 1200px aqui */
+}
+
+/* Estilos para telas maiores que 1200px (ex: desktops) */
+@media screen and (min-width: 1200px) {
+  /* Estilos específicos para telas maiores que 1200px aqui */
+}
+
+
+  /*Responsivo termino*/
+
   
 
 /*Terceiro Projeto */
