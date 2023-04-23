@@ -258,7 +258,7 @@ body {
 
 .skill {
     position: relative;
-    right: 60vh;
+    right: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
