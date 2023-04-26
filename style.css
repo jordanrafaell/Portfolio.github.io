@@ -401,14 +401,14 @@ html {
     text-align: center;
     vertical-align: top;
     position: relative;
-    bottom: 90vh;
+    bottom: 80vh;
     left: 35px;
 }
 
 .skill2 {
     position: relative;
-    left: 30vw;
-    top: 30vh;
+    left: 25vw;
+    top: 35vh;
     display: flex;
     flex-direction: column;
     align-items: center;
