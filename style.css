@@ -203,16 +203,14 @@ body {
 }
 
 /*Sobre Mim*/
-.info h1 {
+.infoh1{
+    margin-left: 65px;
     text-align: center;
     font-size: 30px;
     font-family: 'Kanit', sans-serif;
-    color: #dcb5f7;
+    color: #991af3;
     font: bolder;
-    -moz-box-shadow: 0 20px 140px 0px #4800f1;
-    -webkit-box-shadow: 0 50px 200px 0 #f8f5f5;
-    text-shadow: 0px 0px 5px #9a2df3;
-
+    text-shadow: 1px 6px 30px rgb(196, 190, 190);
 }
 
 .info {
@@ -224,7 +222,7 @@ body {
 
 .astronauta{
     position: sticky;
-    left: 95vh;
+    left: 94vh;
     top: 20vh;
     width: 100px;
 }
@@ -258,7 +256,7 @@ body {
 
 .descricao1 {
     position: relative;
-    bottom: 10rem;
+    bottom: 7rem;
     width: 40rem;
     height: 38rem;
     border: 1px solid rgb(63, 2, 143);
@@ -296,7 +294,7 @@ body {
 .descricao2 {
     position: relative;
     left: 48.5rem;
-    bottom: 48.1rem;
+    bottom: 45.1rem;
     width: 32.4rem;
     height: 38rem;
     border: 1px solid rgb(63, 2, 143);
@@ -390,7 +388,8 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 20px;
+    margin: 0 10px;
+    top: 10vh;
 }
 
 .skill1 img {
@@ -452,8 +451,8 @@ a{
 
 .skill2 {
     position: relative;
-    left: 25vw;
-    top: 35vh;
+    left: 28vw;
+    top: 45vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -521,18 +520,15 @@ a{
 }
 
 
-.Projetos1 h1 {
+.projeth1{
+    margin-left: 65px;
     text-align: center;
     font-size: 30px;
     font-family: 'Kanit', sans-serif;
-    color: #dcb5f7;
+    color: #991af3;
     font: bolder;
-    -moz-box-shadow: 0 20px 140px 0px #4800f1;
-    -webkit-box-shadow: 0 50px 200px 0 #f8f5f5;
-    text-shadow: 0px 0px 5px #9a2df3;
-
+    text-shadow: 1px 6px 30px rgb(196, 190, 190);
 }
-
 .projetos1 {
     max-width: 900px;
     margin: 0 auto;
@@ -654,6 +650,8 @@ a{
 }
 /*Terceiro Projeto */
 /*Contato*/
+
+
 
 
 footer {
@@ -896,4 +894,25 @@ footer {
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
   }
+
+/*GIF*/
+footer .nav4 {
+    position: absolute;
+    bottom: -210vh;
+    right: 180vh;
+    width: 120px;
+    height: 80px;
+    transform: rotate(90deg);
+    animation: moveRight 5s linear infinite;
+  }
+  
+  @keyframes moveRight {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateX(calc(100vw - 120px));
+    }
+  }
+  
   
