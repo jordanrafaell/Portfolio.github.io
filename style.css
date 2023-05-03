@@ -895,24 +895,4 @@ footer {
     }
   }
 
-/*GIF*/
-footer .nav4 {
-    position: absolute;
-    bottom: -210vh;
-    right: 180vh;
-    width: 120px;
-    height: 80px;
-    transform: rotate(90deg);
-    animation: moveRight 5s linear infinite;
-  }
-  
-  @keyframes moveRight {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateX(calc(100vw - 120px));
-    }
-  }
-  
   
