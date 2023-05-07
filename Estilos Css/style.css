@@ -516,7 +516,7 @@ a{
     height: 100vh;
 }
 .projetos1 iframe {
-    display: inline-flex;
+    display: flex;
 }
 
 
