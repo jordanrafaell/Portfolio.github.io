@@ -34,4 +34,6 @@ Este é um trabalho em constante evolução, e estarei sempre adicionando novos 
   <a href="#" target="_blank" rel="noreferrer">
       <img  alt="Canva" height="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"/> 
   </a>
-
+  <a href="#" target="_blank" rel="noreferrer">
+      <img  alt="Figma" height="50px" style="padding-right:10px;" src="https://user-images.githubusercontent.com/61181764/235529002-cf33fa7c-9d32-486d-b187-f1bf31208a60.svg"/> 
+  </a>
