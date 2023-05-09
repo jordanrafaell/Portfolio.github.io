@@ -590,7 +590,6 @@ footer {
     padding-right: 1rem;
     padding-left: 1rem;
   }
-  
 .Ctitulo{
     font-size: 2rem;
     color: #fff;
@@ -648,6 +647,9 @@ footer {
   outline: none;
   border-color: rgb(250, 249, 252);
   box-shadow: 0 0 0 3px #4018f1;
+}
+button{
+    cursor: pointer;
 }
 
 .btn {
