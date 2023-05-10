@@ -1,0 +1,406 @@
+/* Estilos padrão para a classe .topo */
+.topo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Estilos para o menu quando a tela tiver largura menor ou igual a 768px */
+@media screen and (max-width: 768px) {
+
+
+    .logo-site {
+        display: none;
+    }
+
+    .topo {
+        position: static;
+        height: auto;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .topo nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topo nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .topo nav li {
+        margin: 0.5rem 0;
+    }
+
+    .topo nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0.5rem;
+    }
+
+    @media screen and (max-width: 768px) {
+
+        .link-topo li img {
+            display: block;
+        }
+
+        .link-topo li a {
+            margin-left: 15px;
+        }
+
+        .link-topo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 1;
+            position: absolute;
+            left: -70vw;
+        }
+
+        .link-topo li {
+            margin-bottom: 10px;
+        }
+
+        .link-topo ul {
+            display: none;
+        }
+
+        .link-topo li:first-child ul {
+            display: block;
+        }
+
+        .link-topo li:first-child a {
+            display: flex;
+            align-items: center;
+        }
+
+        .link-topo img {
+            margin-left: 5px;
+        }
+
+        .link-topo ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, .15);
+            border-radius: 8px;
+            width: auto;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .link-topo ul li:hover>ul {
+            display: block;
+        }
+
+        .link-topo ul ul li {
+            display: block;
+            width: 100%;
+            margin-bottom: 8px;
+        }
+
+        .link-topo ul ul li:last-child {
+            margin-bottom: 0;
+        }
+
+        .link-topo ul ul li a {
+            display: block;
+            padding: 8px 16px;
+            color: #333;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .link-topo ul ul li a:hover {
+            background-color: #f5f5f5;
+        }
+
+        /* Aumenta a margem à direita de cada elemento li no menu superior */
+        .link-topo>li {
+            margin-right: 30px;
+        }
+
+        /* Adiciona um z-index maior ao menu suspenso de cada item de lista */
+        .link-topo li ul {
+            z-index: 1000;
+        }
+
+        .link-topo li:hover>ul {
+            background-color: #333;
+            /* altere a cor desejada aqui */
+        }
+
+        @media (max-width: 768px) {
+            .link-topo>li:nth-child(4) {
+                display: none;
+            }
+        }
+
+    }
+
+    /*apresentação*/
+    /* Desktop */
+    .block1 {
+        background-image: url(https://user-images.githubusercontent.com/61181764/236696693-9741b750-4cbd-4e8b-9cf9-73e8c629a4ce.jpg);
+    }
+
+    .apresentacao {
+        width: 350px;
+        position: relative;
+        bottom: 210px;
+        left: 50px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .NomePersonalizado {
+        text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px,
+            #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px,
+            #FF2D95 0px 0px 75px, 9px -39px 0px rgba(88, 33, 206, 0), 9px -39px 0px rgba(88, 33, 206, 0);
+        color: #FFFFFF;
+        font-weight: bold;
+        color: rgb(89, 0, 255);
+        font-size: 30px;
+    }
+
+    .meu-paragr {
+        display: none;
+    }
+
+    .meu-home p {
+        font-weight: bold;
+        padding-top: 0vh;
+    }
+
+    /* Tablet */
+    @media screen and (max-width: 768px) {
+        .block1 {
+            background-image: url(https://user-images.githubusercontent.com/61181764/236696693-9741b750-4cbd-4e8b-9cf9-73e8c629a4ce.jpg);
+            background-size: cover;
+        }
+
+        .apresentacao {
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            text-align: center;
+            margin-top: 50px;
+            font-size: 24px;
+        }
+
+        .NomePersonalizado {
+            text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px,
+                #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px,
+                #FF2D95 0px 0px 75px, 9px -39px 0px rgba(88, 33, 206, 0), 9px -39px 0px rgba(88, 33, 206, 0);
+            color: #FFFFFF;
+            font-weight: bold;
+            color: rgb(89, 0, 255);
+            font-size: 36px;
+            margin-top: 20px;
+        }
+    }
+
+    .logo-eu {
+        position: relative;
+        border-radius: 50%;
+        right: -30%;
+        top: -10%;
+        transform: translateY(0px);
+        animation: float 3s ease-in-out infinite;
+        max-width: 200px;
+    }
+
+    /*Lista de navegação*/
+    .listadenavegacaa {
+        display: none;
+    }
+
+}
+
+
+/*Sobre Mim*/
+
+@media (max-width: 763px) {
+
+    .info{
+        height: 180vh;
+    }
+
+    .infoh1 {
+        margin-left: 0;
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    .descricao1 h3 {
+        font-size: 30px;
+        top: 80px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .descricao1 p {
+        top: 50px;
+    }
+
+    .p-sobre {
+        background-color: #2b2a2a54;
+        width: 480px;
+        border-radius: 5px;
+    }
+
+    .descricao1 {
+        width: 493px;
+        height: 90vh;
+        position: relative;
+        border: none;
+    }
+
+}
+
+
+/*Certificado*/
+
+@media only screen and (max-width: 763px) {
+    .Certificado li p {
+        bottom: 10vh;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .Certificados {
+        margin-left: 0;
+        justify-content: center;
+        width: 100%;
+        bottom: 20%;
+        left: 5vw;
+
+    }
+
+    .Certificados2 {
+        left: 25vw;
+        margin-left: 0;
+        bottom: 20%;
+    }
+
+    .Certificados3 {
+        left: 70vw;
+        margin-left: 0;
+        bottom: 20%;
+    }
+
+    .cert{
+        position: relative;
+        top: 90px;
+        left: -45px;
+    }
+
+    .paracert{
+        margin-top: -25vh;
+        font-family: sans-serif;
+    }
+
+    .infomarcoesh2 {
+        font-size: 50px;
+        margin-top:25vh;
+    }
+
+    .habilidades1{
+        position: relative;
+        top: 50vh;
+        left: -30vw;
+    }
+
+    .astronauta{
+        display: none;
+    }
+
+    .descricao2{
+        font-size: 35px;
+        position: relative;
+        left: 20vw;
+        bottom: 55vh;
+        border: none;
+    }
+
+    .skill1{
+        position: relative;
+        left: 22vw;
+        top: 50vh;
+    }
+
+    .skill2{
+        position: relative;
+        top: 52vh;
+        left: 20vw;
+    }
+}
+
+@media screen and (max-width: 763px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      
+    .projetos {
+    height: auto;
+    width: 480px;
+    }
+    
+    .projeto iframe {
+    width: 100%;
+    height: 70vh;
+    position: static;
+    right: 0;
+    bottom: 0;
+    }
+    
+    .botao-projeto {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+    }
+    
+    .projeth {
+    margin-left: 0;
+    padding-top: 15px;
+    }
+}
+
+/* Adicione este trecho de CSS no final do seu código CSS existente */
+
+/* para dispositivos com largura menor ou igual a 768px */
+@media (max-width: 768px) {
+    .Ctitulo {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .form {
+      max-width: 95%;
+      margin-left: -10px;
+    }
+    .btn {
+      margin-right: 0;
+      margin-bottom: 2rem;
+      width: 105%;
+    }
+  }
+  
+  /* para dispositivos com largura menor ou igual a 576px */
+  @media (max-width: 576px) {
+    .Ctitulo {
+      font-size: 1.25rem;
+    }
+    .btn {
+      height: 2.5rem;
+    }
+  }
+  

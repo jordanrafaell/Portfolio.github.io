@@ -5,13 +5,13 @@ body {
     margin: 0;
     background-color: #330033;
     color: #fff;
-   
     width: 100%;
-} 
-/*ESTILIZANDO LINKS DO TOPO*/
-.block1 {
-    background-image: url(https://user-images.githubusercontent.com/61181764/236696693-9741b750-4cbd-4e8b-9cf9-73e8c629a4ce.jpg);
+    overflow-x: hidden;
+    overflow-y: auto;
+
 }
+
+/*ESTILIZANDO LINKS DO TOPO*/
 
 .topo {
     position: relative;
@@ -86,8 +86,6 @@ body {
 
 
 
-
-
 @keyframes typewriter {
     from {
         width: 0%;
@@ -109,6 +107,10 @@ body {
 }
 
 /*apresentação*/
+.block1 {
+    background-image: url(https://user-images.githubusercontent.com/61181764/236696693-9741b750-4cbd-4e8b-9cf9-73e8c629a4ce.jpg);
+}
+
 .apresentacao {
     width: 350px;
     position: relative;
@@ -191,9 +193,6 @@ body {
     height: 100%;
 }
 
-.lista-bolinhas li a:hover {
-    cursor: pointer;
-}
 
 .lista-bolinhas li a:focus,
 .lista-bolinhas li a.active {
@@ -202,7 +201,7 @@ body {
 }
 
 /*Sobre Mim*/
-.infoh1{
+.infoh1 {
     margin-left: 65px;
     text-align: center;
     font-size: 30px;
@@ -219,7 +218,7 @@ body {
     height: 100vh;
 }
 
-.astronauta{
+.astronauta {
     position: sticky;
     left: 94vh;
     top: 20vh;
@@ -317,55 +316,60 @@ body {
 
 /*Certificado*/
 
-.Certificado li p{
+.Certificado p {
     text-align: center;
     position: relative;
     bottom: 20vh;
     font-size: 20px;
     line-height: 40px;
     color: rgb(255, 255, 255);
-    cursor: pointer;
 }
-a{
 
+a {
+    cursor: pointer;
     text-decoration: none;
 }
 
-
-.Certificados{
+.Certificados {
     display: flex;
     position: absolute;
     bottom: 15px;
-    margin-left: 9rem;
+    margin-left: 12vw;
+    cursor: pointer;
 }
-.Certificados2{
+
+.Certificados2 {
     position: absolute;
     bottom: 15px;
     left: 10vh;
-    margin-left: 14rem;
+    margin-left: 12rem;
 }
-.Certificados3{
+
+.Certificados3 {
     position: absolute;
     bottom: 15px;
     left: 25vh;
-    margin-left: 15rem;
+    margin-left: 12rem;
 }
-.paracert{
+
+.paracert {
     margin-top: 10px;
     font-family: sans-serif;
 }
 
-.paracert:hover{
+.paracert:hover {
     color: #ee1c00;
 }
-.Certificados:hover{
+
+.Certificados:hover {
     opacity: 40%;
 }
 
-.Certificados2:hover{
+.Certificados2:hover {
     opacity: 40%;
 }
-.Certificados3:hover{
+
+.Certificados3:hover {
     opacity: 40%;
 }
 
@@ -508,18 +512,20 @@ a{
 
 
 /*Projetos*/
-.Projetos{
+.Projetos {
     background: no-repeat url(https://user-images.githubusercontent.com/61181764/236696755-bdc76937-16c3-4586-ba70-12791eeb074e.jpg);
     margin-top: -25px;
     width: 100%;
     height: 100vh;
 }
+
 .projetos iframe {
     display: flex;
+    border-radius: 15px;
 }
 
 
-.projeth{
+.projeth {
     margin-left: 65px;
     text-align: center;
     font-size: 30px;
@@ -528,6 +534,7 @@ a{
     font: bolder;
     text-shadow: 1px 6px 30px rgb(196, 190, 190);
 }
+
 .projetos {
     max-width: 900px;
     margin: 0 auto;
@@ -535,10 +542,14 @@ a{
 
 .projeto {
     margin: 20px 0;
-    border: 1px solid #ccc;
+    border: 2px solid #8802f5;
     padding: 10px;
     position: relative;
-    top: 2vh;
+    border-radius: 15px;
+    top: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 
@@ -548,7 +559,7 @@ a{
     border: none;
     position: relative;
     right: 9px;
-    bottom: 1.5vh;
+    top: -1vh;
 
 }
 
@@ -557,7 +568,7 @@ a{
     bottom: 2px;
     right: 1%;
     display: inline-block;
-    background-color: #007bff;
+    background-color: #4c00ff;
     color: #fff;
     padding: 10px 20px;
     border-radius: 10px;
@@ -568,7 +579,7 @@ a{
 }
 
 .botao-projeto:hover {
-    background-color: #05a771;
+    background-color: #0f0f0f;
 }
 
 .projeto a {
@@ -578,19 +589,20 @@ a{
 /*Contato*/
 
 footer {
-    background: rgb(16,48,164);
-    background: linear-gradient(90deg, rgba(16,48,164,1) 0%, rgba(0,0,0,1) 39%, rgba(51,4,181,1) 100%);
+    background: rgb(16, 48, 164);
+    background: linear-gradient(90deg, rgba(16, 48, 164, 1) 0%, rgba(0, 0, 0, 1) 39%, rgba(51, 4, 181, 1) 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     padding-right: 1rem;
     padding-left: 1rem;
-  }
-.Ctitulo{
+}
+
+.Ctitulo {
     font-size: 2rem;
     color: #fff;
     margin-bottom: 2rem;
@@ -603,53 +615,50 @@ footer {
     font-weight: bold;
     color: rgb(89, 0, 255);
     font-size: 30px;
-  }
-  
-  
+}
+
+
 .form {
-  width: 100%;
-  max-width: 32rem;
-  font-size: 1.125rem;
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
 }
 
 .form label,
 .form input,
-.form textarea,button {
-  display: block;
-  width: 100%;
+.form textarea, button {
+    display: block;
+    width: 100%;
 }
 
 .form label {
-  color: #fff;
-  line-height: 1;
-  margin-bottom: 0.5rem;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 0.5rem;
 }
 
 .form input,
 .form textarea {
-  font: inherit;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  transition: border-color, box-shadow 0.2s;
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
 }
 
 .form textarea {
-  min-height: 13rem;
-  resize: vertical;
+    min-height: 13rem;
+    resize: vertical;
 }
 
 .form input:hover,
 .form input:focus,
 .form textarea:hover,
 .form textarea:focus {
-  outline: none;
-  border-color: rgb(250, 249, 252);
-  box-shadow: 0 0 0 3px #4018f1;
-}
-button{
-    cursor: pointer;
+    outline: none;
+    border-color: rgb(250, 249, 252);
+    box-shadow: 0 0 0 3px #4018f1;
 }
 
 .btn {
@@ -665,12 +674,12 @@ button{
     transition: 0.5s;
     animation: gradient_301 5s ease infinite;
     border: double 4px transparent;
-    background-image: linear-gradient(#212121, #212121),  linear-gradient(137.48deg, #ffdb3b 10%,#FE53BB 45%, #8F51EA 67%, #0044ff 87%);
+    background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, #ffdb3b 10%, #FE53BB 45%, #8F51EA 67%, #0044ff 87%);
     background-origin: border-box;
     background-clip: content-box, border-box;
-  }
-  
-  #container-stars {
+}
+
+#container-stars {
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -679,66 +688,66 @@ button{
     transition: 0.5s;
     backdrop-filter: blur(1rem);
     border-radius: 5rem;
-  }
-  
-  strong {
+}
+
+strong {
     z-index: 2;
     font-family: 'Avalors Personal Use';
     font-size: 20px;
     letter-spacing: 5px;
     color: #ffffff;
-  }
-  
-  #glow {
+}
+
+#glow {
     position: absolute;
     display: flex;
     width: 12rem;
-  }
-  
-  .circle {
+}
+
+.circle {
     width: 100%;
     height: 30px;
     filter: blur(2rem);
     animation: pulse_3011 4s infinite;
     z-index: -1;
-  }
-  
-  .circle:nth-of-type(1) {
+}
+
+.circle:nth-of-type(1) {
     background: rgba(254, 83, 186, 0.636);
-  }
-  
-  .circle:nth-of-type(2) {
+}
+
+.circle:nth-of-type(2) {
     background: rgba(142, 81, 234, 0.704);
-  }
-  
-  .btn:hover #container-stars {
+}
+
+.btn:hover #container-stars {
     z-index: 1;
     background-color: #212121;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     transform: scale(1.1)
-  }
-  
-  .btn:active {
+}
+
+.btn:active {
     border: double 4px #FE53BB;
     background-origin: border-box;
     background-clip: content-box, border-box;
     animation: none;
-  }
-  
-  .btn :active .circle {
+}
+
+.btn :active .circle {
     background: #FE53BB;
-  }
-  
-  #stars {
+}
+
+#stars {
     position: relative;
     background: transparent;
     width: 200rem;
     height: 200rem;
-  }
-  
-  #stars::after {
+}
+
+#stars::after {
     content: "";
     position: absolute;
     top: -10rem;
@@ -746,14 +755,14 @@ button{
     width: 100%;
     height: 100%;
     animation: animStarRotate 90s linear infinite;
-  }
-  
-  #stars::after {
+}
+
+#stars::after {
     background-image: radial-gradient(#ffffff 1px, transparent 1%);
     background-size: 50px 50px;
-  }
-  
-  #stars::before {
+}
+
+#stars::before {
     content: "";
     position: absolute;
     top: 0;
@@ -761,63 +770,61 @@ button{
     width: 170%;
     height: 500%;
     animation: animStar 60s linear infinite;
-  }
-  
-  #stars::before {
+}
+
+#stars::before {
     background-image: radial-gradient(#ffffff 1px, transparent 1%);
     background-size: 50px 50px;
     opacity: 0.5;
-  }
-  
-  @keyframes animStar {
-    from {
-      transform: translateY(0);
-    }
-  
-    to {
-      transform: translateY(-135rem);
-    }
-  }
-  
-  @keyframes animStarRotate {
-    from {
-      transform: rotate(360deg);
-    }
-  
-    to {
-      transform: rotate(0);
-    }
-  }
-  
-  @keyframes gradient_301 {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
-  @keyframes pulse_3011 {
-    0% {
-      transform: scale(0.75);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-    }
-  
-    70% {
-      transform: scale(1);
-      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-    }
-  
-    100% {
-      transform: scale(0.75);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-  }
+}
 
-  
+@keyframes animStar {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-135rem);
+    }
+}
+
+@keyframes animStarRotate {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
+
+@keyframes gradient_301 {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes pulse_3011 {
+    0% {
+        transform: scale(0.75);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.75);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
