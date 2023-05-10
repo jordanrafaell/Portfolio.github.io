@@ -7,8 +7,8 @@
     background-color: #fff;
 }
 
-/* Estilos para o menu quando a tela tiver largura menor ou igual a 768px */
-@media screen and (max-width: 768px) {
+/* Estilos para o menu quando a tela tiver largura menor ou igual a 720px */
+@media screen and (max-width: 720px) {
 
 
     .logo-site {
@@ -45,7 +45,7 @@
         padding: 0.5rem;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 720px) {
 
         .link-topo li img {
             display: block;
@@ -138,7 +138,7 @@
             /* altere a cor desejada aqui */
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 720px) {
             .link-topo>li:nth-child(4) {
                 display: none;
             }
@@ -181,7 +181,7 @@
     }
 
     /* Tablet */
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 720px) {
         .block1 {
             background-image: url(https://user-images.githubusercontent.com/61181764/236696693-9741b750-4cbd-4e8b-9cf9-73e8c629a4ce.jpg);
             background-size: cover;
@@ -228,7 +228,7 @@
 
 /*Sobre Mim*/
 
-@media (max-width: 763px) {
+@media (max-width: 720px) {
 
     .info{
         height: 180vh;
@@ -269,7 +269,7 @@
 
 /*Certificado*/
 
-@media only screen and (max-width: 763px) {
+@media only screen and (max-width: 720px) {
     .Certificado li p {
         bottom: 10vh;
         font-size: 16px;
@@ -344,7 +344,7 @@
     }
 }
 
-@media screen and (max-width: 763px) {
+@media screen and (max-width: 720px) {
     body {
         overflow-x: hidden;
         overflow-y: auto;
@@ -377,8 +377,8 @@
 
 /* Adicione este trecho de CSS no final do seu código CSS existente */
 
-/* para dispositivos com largura menor ou igual a 768px */
-@media (max-width: 768px) {
+/* para dispositivos com largura menor ou igual a 720px */
+@media (max-width: 720px) {
     .Ctitulo {
       font-size: 1.5rem;
       margin-bottom: 1rem;
