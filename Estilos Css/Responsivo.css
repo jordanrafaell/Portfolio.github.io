@@ -1,11 +1,3 @@
-/* Estilos padrão para a classe .topo */
-.topo {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-}
 
 /* Estilos para o menu quando a tela tiver largura menor ou igual a 720px */
 @media screen and (max-width: 720px) {
@@ -403,4 +395,3 @@
       height: 2.5rem;
     }
   }
-  

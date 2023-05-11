@@ -143,8 +143,13 @@ body {
     top: -50px;
     transform: translateY(0px);
     animation: float 2s ease-in-out infinite;
+    border: 1px solid rgb(153, 0, 255);
 }
-
+.logo-eu:hover{
+    box-shadow: #4c00ff 0px 5px 100px;
+    border: #4c00ff solid 1.5px;
+    
+}
 @keyframes float {
     0% {
         transform: translateY(0px);
@@ -249,7 +254,6 @@ body {
     color: rgb(255, 255, 255);
     font-family: 'Kanit', sans-serif;
     font-family: 'Sigmar', cursive;
-
 }
 
 .descricao1 {
