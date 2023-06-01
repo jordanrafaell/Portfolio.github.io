@@ -80,7 +80,7 @@ body {
 }
 
 .letra-personalizada::after {
-    content: "";
+    content: "👨🏿‍💻";
     animation: none;
 }
 
@@ -92,7 +92,7 @@ body {
     }
 
     to {
-        width: 100%;
+        width: 110%;
     }
 }
 
