@@ -74,13 +74,13 @@ body {
 .letra-personalizada {
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 6s steps(30) infinite alternate,
+    animation: typewriter 4s steps(45) infinite alternate,
         blink 200ms steps(1) infinite normal;
-    border-right: 2px solid rgb(253, 253, 253);
+    border-right: 4px solid rgb(253, 253, 253);
 }
 
 .letra-personalizada::after {
-    content: "😎";
+    content: "";
     animation: none;
 }
 
@@ -92,13 +92,13 @@ body {
     }
 
     to {
-        width: 89%;
+        width: 100%;
     }
 }
 
 @keyframes blink {
     from {
-        border-color: rgb(255, 255, 255);
+        border-color: rgb(252, 0, 0);
     }
 
     to {
