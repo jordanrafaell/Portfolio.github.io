@@ -11,8 +11,6 @@ body {
 
 }
 
-
-
 /*ESTILIZANDO LINKS DO TOPO*/
 
 .topo {
@@ -76,10 +74,16 @@ body {
 .letra-personalizada {
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 3.5s steps(45) infinite alternate,
+    animation: typewriter 6s steps(30) infinite alternate,
         blink 200ms steps(1) infinite normal;
-    border-right: 5px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(253, 253, 253);
 }
+
+.letra-personalizada::after {
+    content: "😎";
+    animation: none;
+}
+
 
 
 @keyframes typewriter {
@@ -88,13 +92,13 @@ body {
     }
 
     to {
-        width: 100%;
+        width: 89%;
     }
 }
 
 @keyframes blink {
     from {
-        border-color: rgb(255, 0, 0);
+        border-color: rgb(255, 255, 255);
     }
 
     to {
@@ -161,7 +165,7 @@ body {
 }
 
 /*Lista de navegação*/
-.lista-Planetas {
+.lista-bolinhas {
     position: fixed;
     top: 50%;
     right: 20px;
@@ -172,7 +176,7 @@ body {
     z-index: 1;
 }
 
-.lista-Planetas img {
+.lista-bolinhas img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -184,26 +188,22 @@ body {
     text-shadow: 0px 10px 5px #ffffff;
 }
 
-.lista-Planetas li:last-child {
+.lista-bolinhas li:last-child {
     margin-bottom: 0;
 }
 
-.lista-Planetas li a {
+.lista-bolinhas li a {
     display: block;
     width: 100%;
     height: 100%;
 }
 
 
-.lista-Planetas li a:focus,
-.lista-Planetas li a.active {
+.lista-bolinhas li a:focus,
+.lista-bolinhas li a.active {
     outline: none;
     background-color: #fdfdfd00;
 }
-
-
-
-
 
 /*Sobre Mim*/
 .infoh1 {
